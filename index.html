@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GRTBVHDHCT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GRTBVHDHCT');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Orações Católicas Poderosas e Novenas - Palavra de Deus e Fé em Jesus Cristo</title>
+    
+    <meta name="description" content="Orações católicas poderosas, novenas, Palavra de Deus e versículos da Bíblia Sagrada. Fortaleça sua fé em Jesus Cristo com orações que transformam vidas.">
+    
+    <meta name="keywords" content="orações católicas, oração poderosa, novenas católicas, Palavra de Deus, Bíblia Sagrada, Jesus Cristo, fé em Deus, orações diárias">
+    
+    <meta property="og:title" content="Orações Católicas Poderosas e Novenas">
+    <meta property="og:description" content="Fortaleça sua fé com orações católicas poderosas e a Palavra de Deus">
+    <meta property="og:type" content="website">
+    
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(rgba(255,255,255,0.92), rgba(255,255,255,0.92)), 
+                        url('https://images.unsplash.com/photo-1438232992991-995b7058bbb3?w=1920') center/cover fixed;
+            overflow-x: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        header h1 {
+            font-family: 'Crimson Text', serif;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 0.9rem;
+            opacity: 0.95;
+        }
+        
+        nav {
+            background: #1e3c72;
+            padding: 1rem;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 1rem;
+        }
+        
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+            font-size: 0.95rem;
+        }
+        
+        nav a:hover {
+            color: #d4af37;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .hero {
+            background: white;
+            border-radius: 15px;
+            padding: 3rem 2rem;
+            margin: 2rem 0;
+            text-align: center;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            border-top: 5px solid #d4af37;
+        }
+        
+        .hero h2 {
+            font-family: 'Crimson Text', serif;
+            font-size: 2.5rem;
+            color: #1e3c72;
+            margin-bottom: 1.5rem;
+        }
+        
+        .hero p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 2rem;
+        }
+        
+        .btn-youtube {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff0000 0%, #cc0000 100%);
+            color: white;
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            box-shadow: 0 8px 20px rgba(255,0,0,0.3);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-youtube:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px rgba(255,0,0,0.4);
+        }
+        
+        .share-buttons {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        
+        .share-buttons p {
+            margin-bottom: 1rem;
+            color: #666;
+        }
+        
+        .share-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 8px;
+            margin: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            color: white;
+            transition: transform 0.3s;
+        }
+        
+        .share-btn:hover {
+            transform: scale(1.05);
+        }
+        
+        .verse-section {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            border-radius: 15px;
+            padding: 3rem 2rem;
+            margin: 2rem 0;
+            text-align: center;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        
+        .verse-section h2 {
+            font-family: 'Crimson Text', serif;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: #d4af37;
+        }
+        
+        #daily-verse {
+            font-family: 'Crimson Text', serif;
+            font-size: 1.4rem;
+            font-style: italic;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+        
+        .verse-reference {
+            font-size: 1rem;
+            color: #d4af37;
+            font-weight: 600;
+        }
+        
+        .videos-section {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            margin: 2rem 0;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        .videos-section h2 {
+            font-family: 'Crimson Text', serif;
+            font-size: 2rem;
+            color: #1e3c72;
+            text-align: center;
+            margin-bottom: 2rem;
+            border-bottom: 3px solid #d4af37;
+            padding-bottom: 1rem;
+        }
+        
+        .videos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .video-card {
+            background: #f9f9f9;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .video-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .video-card iframe {
+            width: 100%;
+            height: 200px;
+            border: none;
+        }
+        
+        .video-card-content {
+            padding: 1rem;
+        }
+        
+        .video-card h3 {
+            font-size: 1rem;
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+        
+        .prayer-form-section {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            margin: 2rem 0;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        .prayer-form-section h2 {
+            font-family: 'Crimson Text', serif;
+            font-size: 2rem;
+            color: #1e3c72;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .prayer-form-section > p {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #666;
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #555;
+            font-weight: 600;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 1rem;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #1e3c72;
+            box-shadow: 0 0 0 3px rgba(30,60,114,0.1);
+        }
+        
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+        
+        .btn-submit {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            border: none;
+            padding: 1rem 3rem;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            font-weight: 600;
+            width: 100%;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-submit:hover:not(:disabled) {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(30,60,114,0.3);
+        }
+        
+        .btn-submit:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        
+        .message {
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 1rem;
+            display: none;
+            font-size: 1rem;
+        }
+        
+        .message.show {
+            display: block;
+            animation: fadeIn 0.3s ease;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .success-message {
+            background: #d4edda;
+            color: #155724;
+            border: 2px solid #c3e6cb;
+        }
+        
+        .error-message {
+            background: #f8d7da;
+            color: #721c24;
+            border: 2px solid #f5c6cb;
+        }
+        
+        .testimonials-section {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            margin: 2rem 0;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        .testimonials-section h2 {
+            font-family: 'Crimson Text', serif;
+            font-size: 2rem;
+            color: #1e3c72;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .testimonial-card {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 1.5rem;
+            border-left: 5px solid #d4af37;
+        }
+        
+        .testimonial-card p {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+        
+        .testimonial-author {
+            font-weight: 600;
+            color: #1e3c72;
+            text-align: right;
+        }
+        
+       footer {
+            background: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+        
+        footer a {
+            color: #d4af37;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        .social-links a {
+            font-size: 1.5rem;
+            margin: 0 10px;
+            color: white;
+            transition: color 0.3s;
+        }
+        
+        .social-links a:hover {
+            color: #d4af37;
+        }
+        
+        /* Estilos para o novo menu de Estudos */
+        .nav-estudos {
+            color: #ffffff !important;
+            font-weight: 700 !important;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+
+        #minuto-sabedoria {
+            scroll-margin-top: 250px; /* ajuste fino se quiser */
+        }
+
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 1.8rem;
+            }
+            
+            header h1 {
+                font-size: 1.5rem;
+            }
+            
+            nav {
+                padding: 0.5rem;
+            }
+            
+            nav a {
+                display: block;
+                margin: 0.5rem 0;
+                font-size: 0.9rem;
+            }
+            
+            .videos-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .share-btn {
+                display: block;
+                margin: 0.5rem auto;
+                max-width: 250px;
+            }
+        }
+            .menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  nav.menu {
+    display: none;
+    flex-direction: column;
+    background: #1e3c72;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  nav.menu a {
+    padding: 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+  }
+
+  nav.menu.active {
+    display: flex;
+  }
+}
+/* ================================
+   CARD - MINUTO DE SABEDORIA
+================================ */
+
+.prayer-card {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 35px 30px;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #ffffff, #f8f6f0);
+  border: 3px solid #d4af37; /* dourado */
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+  animation: aparecerSabedoria 0.6s ease;
+}
+
+/* Texto interno */
+#textoSabedoria {
+  font-size: 1.35rem;
+  line-height: 1.9;
+  color: #333;
+}
+
+/* Nome da pessoa */
+#textoSabedoria strong {
+  display: block;
+  font-size: 1.8rem;
+  color: #8b6b1f;
+  margin-bottom: 15px;
+}
+
+/* Versículo */
+#textoSabedoria br + br + * {
+  display: block;
+  margin-top: 20px;
+  font-size: 1.15rem;
+  font-style: italic;
+  color: #555;
+}
+
+/* Animação */
+@keyframes aparecerSabedoria {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Lazy Load YouTube CSS */
+.youtube-lazy {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    cursor: pointer;
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s;
+}
+
+.youtube-lazy iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.youtube-lazy .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 68px;
+    height: 48px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 48"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.64-6.38C56.92.09 34 0 34 0S11.08.09 7.12 1.36c-3.15.97-4.86 3.45-5.64 6.38C.09 12.71 0 24 0 24s.09 11.29 1.48 16.26c.78 2.93 2.49 5.41 5.64 6.38C11.08 47.91 34 48 34 48s22.92-.09 26.88-1.36c3.15-.97 4.86-3.45 5.64-6.38C67.91 35.29 68 24 68 24s-.09-11.29-1.48-16.26z" fill="#f00"/><path d="M45 24 27 14v20z" fill="#fff"/></svg>') no-repeat center;
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+    transition: transform 0.3s;
+}
+
+.youtube-lazy:hover .play-button {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  #textoSabedoria {
+    font-size: 1.15rem;
+  }
+
+  #textoSabedoria strong {
+    font-size: 1.5rem;
+  }
+}
+		/* ================================
+   BOTÃO CTA - PEDIDO DE ORAÇÃO
+================================ */
+.cta-oracao {
+  background: linear-gradient(135deg, #d4af37, #b8962e);
+  text-align: center;
+  padding: 15px 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+.btn-oracao-destaque {
+  display: inline-block;
+  background: linear-gradient(135deg, #ffffff, #fff6d5);
+  color: #1e3c72;
+  font-weight: 700;
+  padding: 14px 35px;
+  border-radius: 50px;
+  font-size: 1.05rem;
+  text-decoration: none;
+  animation: pulseOracao 1.6s infinite;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+  transition: all 0.3s ease;
+}
+
+.btn-oracao-destaque:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.35);
+}
+
+/* ANIMAÇÃO DE DESTAQUE */
+@keyframes pulseOracao {
+  0% { box-shadow: 0 0 0 0 rgba(255,255,255,0.6); }
+  70% { box-shadow: 0 0 0 18px rgba(255,255,255,0); }
+  100% { box-shadow: 0 0 0 0 rgba(255,255,255,0); }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .btn-oracao-destaque {
+    font-size: 0.95rem;
+    padding: 12px 28px;
+  }
+}
+		#pedido-oracao {
+  scroll-margin-top: 180px; /* ajuste esse valor */
+}
+    </style>
+</head>
+<body>
+   <header>
+  <h1>🙏 Orações Católicas e Novenas</h1>
+
+  <!-- BOTÃO MENU MOBILE -->
+  <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+
+  <nav class="menu">
+    <a href="index.html">Início</a>
+    <a href="oracoes.html">Orações</a>
+    <a href="novena.html">Novenas</a>
+    <a href="testemunhos.html">Testemunhos</a>
+    <a href="#minuto-sabedoria"
+   style="
+     margin:0 15px;
+     text-decoration:none;
+     font-weight:600;
+     background: linear-gradient(180deg, #fff2b0, #d4af37, #b8962e);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     text-shadow: 0 0 4px rgba(212,175,55,0.4);
+   ">
+✨ Minuto de Sabedoria ✨
+</a>
+     <a href="contato.html">Pedidos de Oração</a>
+            <a href="o-poder-da-oracao-na-vida-catolica.html" class="nav-estudos">Estudos e Reflexões</a>
+  </nav>
+</header>
+
+<!-- BOTÃO DE DESTAQUE - PEDIDO DE ORAÇÃO -->
+<div class="cta-oracao">
+  <a href="#pedido-oracao" class="btn-oracao-destaque">
+    🙏 Enviar Pedido de Oração Agora
+  </a>
+</div>
+
+    <div class="container">
+        <section class="hero">
+            <h2>Bem-vindo ao Caminho da Fé e das Orações Católicas Poderosas</h2>
+            
+            <p>
+                Seja bem-vindo ao nosso canal Orações Católicas e Novenas poderosas! 
+                Aqui você encontra a verdadeira Palavra de Deus através da Bíblia Sagrada, 
+                orações que transformam vidas e fortalecem a fé em Jesus Cristo. 
+                Nossa missão é levar esperança, paz e a luz divina para todos que buscam 
+                uma conexão mais profunda com Deus através de orações católicas diárias, 
+                novenas milagrosas e ensinamentos bíblicos. Junte-se a milhares de fiéis 
+                que já experimentaram o poder da oração!
+            </p>
+            
+            <a href="https://www.youtube.com/@Ora%C3%A7%C3%B5esCat%C3%B3licasENovenas" 
+               class="btn-youtube" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               aria-label="Visite nosso canal no YouTube">
+                📺 Visite Nosso Canal no YouTube
+            </a>
+            
+            <div class="share-buttons">
+                <p>Compartilhe a fé e nossas orações com seus amigos 🙏</p>
+                
+                <a href="https://api.whatsapp.com/send?text=Confira%20este%20site%20de%20Orações%20Católicas:%20https://oracoescatolicasenovenas.vercel.app/" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="share-btn" 
+                   style="background:#25D366;">
+                    📱 WhatsApp
+                </a>
+                
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://oracoescatolicasenovenas.vercel.app/" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="share-btn" 
+                   style="background:#3b5998;">
+                    👍 Facebook
+                </a>
+                
+                <a href="https://twitter.com/intent/tweet?text=Confira%20este%20site%20de%20Orações%20Católicas:%20https://oracoescatolicasenovenas.vercel.app/" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="share-btn" 
+                   style="background:#1da1f2;">
+                    🐦 Twitter
+                </a>
+                
+            </div>
+        </section>
+
+        <section class="verse-section">
+            <h2>✝️ Palavra de Deus para Hoje</h2>
+            <p id="daily-verse">Carregando versículo...</p>
+            <p class="verse-reference" id="verse-reference"></p>
+        </section>
+
+        <section class="videos-section">
+            <h2>📹 Nossos Vídeos de Orações Católicas e Novenas</h2>
+            <div class="videos-grid">
+
+<div class="video-card">
+	    <div class="youtube-lazy" data-embed="vhSYYnaazzk">
+	      <div class="play-button"></div>
+	    </div>
+	    <div class="video-card-content">
+	      <h3>Oração de São Bento Que Expulsa o Mal e Ativa Proteção Imediata</h3>
+	    </div>
+	  </div>
+	
+	  <div class="video-card">
+	    <div class="youtube-lazy" data-embed="2rIh7JNAbDU">
+	      <div class="play-button"></div>
+	    </div>
+	    <div class="video-card-content">
+	      <h3>Poderosa Oração a São Miguel Arcanjo | Milagre Rápido e Proteção Divina | Milagre Urgente</h3>
+	    </div>
+	  </div>
+	
+	  <div class="video-card">
+	    <div class="youtube-lazy" data-embed="qOehMlkmWps">
+	      <div class="play-button"></div>
+	    </div>
+	    <div class="video-card-content">
+	      <h3>⭐Poderosa Oração de Cura a Nossa Senhora Aparecida | Milagre Imediato e Proteção Divina!</h3>
+	    </div>
+	  </div>
+	
+	  <div class="video-card">
+	    <div class="youtube-lazy" data-embed="gVOEBovboTM">
+	      <div class="play-button"></div>
+	    </div>
+	    <div class="video-card-content">
+	      <h3>🛡️ Oração Poderosa de São Bento: Expulse Demônios, Atraia Bênçãos, Prosperidade e Riquezas✨</h3>
+	    </div>
+	  </div>
+	
+	  <div class="video-card">
+	    <div class="youtube-lazy" data-embed="nJl5zuIdDuk">
+	      <div class="play-button"></div>
+	    </div>
+	    <div class="video-card-content">
+	      <h3>⚠️ Faça Esta Oração de São Bento Hoje- Muito Forte #católicos  #sãobento</h3>
+	    </div>
+	  </div>
+	
+	  <div class="video-card">
+	    <div class="youtube-lazy" data-embed="ID_VIDEO_6">
+	      <div class="play-button"></div>
+	    </div>
+	    <div class="video-card-content">
+	      <h3>Terço poderoso de hoje</h3>
+	    </div>
+	  </div>
+
+</div>
+
+        </section>
+
+        <section class="prayer-form-section">
+  <div class="container">
+    <h2 id="minuto-sabedoria" style="text-align:center;">
+      ✨ Minuto de Sabedoria Bíblico ✨
+    </h2>
+
+    <p style="text-align:center; margin-bottom:20px;">
+      Digite seu nome e receba uma mensagem de sabedoria com base na Palavra de Deus.
+    </p>
+
+    <div class="form-group">
+      <input
+        type="text"
+        id="nomeSabedoria"
+        placeholder="Digite seu nome"
+      />
+    </div>
+
+    <button class="btn-submit" onclick="gerarSabedoria()">
+      Receber minha mensagem 🙏
+    </button>
+
+    <!-- Resultado -->
+    <div
+      id="resultadoSabedoria"
+      style="display:none; margin-top:30px; text-align:center;"
+    >
+      <div class="prayer-card">
+        <p id="textoSabedoria" style="font-family:'Crimson Text', serif;"></p>
+      </div>
+
+      <button
+        class="btn-submit"
+        style="margin-top:20px;"
+        onclick="compartilharSabedoria()"
+      >
+        📤 Compartilhar esta mensagem
+      </button>
+    </div>
+  </div>
+</section>
+
+        <section class="prayer-form-section" id="pedido-oracao">
+            <h2>🙏 Envie Seu Pedido de Oração</h2>
+            <p>
+                Estamos aqui para rezar por você. Compartilhe seu pedido e 
+                nossa comunidade católica irá interceder em oração.
+            </p>
+            
+            <form id="prayer-form">
+                <div class="form-group">
+                    <label for="name">Seu Nome:</label>
+                    <input 
+                        type="text" 
+                        id="name" 
+                        name="name" 
+                        required
+                        placeholder="Digite seu nome"
+                        autocomplete="name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Seu E-mail:</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        required
+                        placeholder="seuemail@exemplo.com"
+                        autocomplete="email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="pedido">Seu Pedido de Oração:</label>
+                    <textarea 
+                        id="pedido" 
+                        name="pedido" 
+                        required
+                        placeholder="Escreva seu pedido de oração..."></textarea>
+                </div>
+                
+                <button type="submit" class="btn-submit">
+                    Enviar Pedido de Oração 🙏
+                </button>
+                
+                <div class="message success-message" id="success-message">
+                    ✅ Recebemos seu pedido! Estamos rezando por você. Você receberá uma confirmação por e-mail. 🙏
+                </div>
+                
+                <div class="message error-message" id="error-message">
+                    ❌ Erro ao enviar seu pedido. Por favor, verifique sua conexão e tente novamente.
+                </div>
+            </form>
+        </section>
+
+        <section class="testimonials-section">
+            <h2>💝 Testemunhos de Fé</h2>
+            <div id="testimonials-container"></div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Orações Católicas e Novenas. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="https://www.youtube.com/@Ora%C3%A7%C3%B5esCat%C3%B3licasENovenas" target="_blank" aria-label="YouTube">📺</a>
+                <a href="#" aria-label="Facebook">👍</a>
+                
+            </div>
+            <p><a href="politica-de-privacidade.html">Política de Privacidade</a> | <a href="termos-de-uso.html">Termos de Uso</a> | <a href="sobre.html">Sobre Nós</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // ========================================
+        // CONFIGURAÇÕES DO EMAILJS
+        // IMPORTANTE: Preencha apenas a Public Key
+        // ========================================
+        const EMAILJS_CONFIG = {
+            publicKey: 'aC3Wwjnb7FUyIJzHX',     // ✅ Já configurado
+            serviceID: 'service_xjjexx7',       // ✅ Já configurado
+            templateID: 'template_9c27uea'      // ✅ Já configurado
+        };
+
+        // Validar configuração antes de inicializar
+        function validarConfiguracao() {
+            if (EMAILJS_CONFIG.publicKey === 'SEU_PUBLIC_KEY_AQUI') {
+                console.error('⚠️ Public Key não configurada!');
+                console.error('📖 Acesse: https://dashboard.emailjs.com/admin/account');
+                console.error('   Copie a Public Key em "API Keys"');
+                return false;
+            }
+            
+            return true;
+        }
+
+        // Inicializar EmailJS
+        if (validarConfiguracao()) {
+            try {
+                emailjs.init(EMAILJS_CONFIG.publicKey);
+                console.log('✅ EmailJS inicializado com sucesso');
+            } catch (error) {
+                console.error('❌ Erro ao inicializar EmailJS:', error);
+            }
+        }
+
+        // ========================================
+        // VERSÍCULOS BÍBLICOS
+        // ========================================
+        const versiculos = [
+  { texto: "Tudo posso naquele que me fortalece.", referencia: "Filipenses 4:13" },
+  { texto: "O Senhor é o meu pastor, nada me faltará.", referencia: "Salmos 23:1" },
+  { texto: "Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna.", referencia: "João 3:16" },
+  { texto: "Não temas, porque eu sou contigo; não te assombres, porque eu sou teu Deus; eu te fortaleço, e te ajudo, e te sustento com a destra da minha justiça.", referencia: "Isaías 41:10" },
+  { texto: "Entrega o teu caminho ao Senhor; confia nele, e ele o fará.", referencia: "Salmos 37:5" },
+  { texto: "Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei. Tomai sobre vós o meu jugo, e aprendei de mim, que sou manso e humilde de coração; e encontrareis descanso para as vossas almas.", referencia: "Mateus 11:28-29" },
+  { texto: "Eu sou o caminho, a verdade e a vida. Ninguém vem ao Pai senão por mim.", referencia: "João 14:6" },
+  { texto: "Alegrai-vos sempre no Senhor; outra vez digo, alegrai-vos.", referencia: "Filipenses 4:4" },
+  { texto: "O Senhor é a minha luz e a minha salvação; a quem temerei? O Senhor é a força da minha vida; de quem me recearei?", referencia: "Salmos 27:1" },
+  { texto: "Confia no Senhor de todo o teu coração, e não te estribes no teu próprio entendimento. Reconhece-o em todos os teus caminhos, e ele endireitará as tuas veredas.", referencia: "Provérbios 3:5-6" },
+  { texto: "Deus é o nosso refúgio e fortaleza, socorro bem presente na angústia.", referencia: "Salmos 46:1" },
+  { texto: "Invoca-me no dia da angústia; eu te livrarei, e tu me glorificarás.", referencia: "Salmos 50:15" },
+  { texto: "O choro pode durar uma noite, mas a alegria vem pela manhã.", referencia: "Salmos 30:5" },
+  { texto: "Perto está o Senhor dos que têm o coração quebrantado, e salva os contritos de espírito.", referencia: "Salmos 34:18" },
+  { texto: "Os passos de um homem bom são confirmados pelo Senhor, e deleita-se no seu caminho. Ainda que caia, não ficará prostrado, pois o Senhor o sustém com a sua mão.", referencia: "Salmos 37:23-24" },
+  { texto: "O Senhor é bom, uma fortaleza no dia da angústia; e conhece os que confiam nele.", referencia: "Naum 1:7" },
+  { texto: "Aquietai-vos, e sabei que eu sou Deus; serei exaltado entre as nações, serei exaltado sobre a terra.", referencia: "Salmos 46:10" },
+  { texto: "O Senhor pelejará por vós, e vós vos calareis.", referencia: "Êxodo 14:14" },
+  { texto: "Misericordioso e piedoso é o Senhor; longânimo e grande em benignidade.", referencia: "Salmos 103:8" },
+  { texto: "Se Deus é por nós, quem será contra nós? Aquele que nem mesmo a seu próprio Filho poupou, antes o entregou por todos nós, como nos não dará também com ele todas as coisas?", referencia: "Romanos 8:31-32" },
+  { texto: "Lançando sobre ele toda a vossa ansiedade, porque ele tem cuidado de vós.", referencia: "1 Pedro 5:7" },
+  { texto: "O Senhor é a minha rocha, e o meu lugar forte, e o meu libertador; o meu Deus, a minha fortaleza, em quem confio; o meu escudo, a força da minha salvação, e o meu alto refúgio.", referencia: "Salmos 18:2" },
+  { texto: "O Senhor sustém a todos os que caem, e levanta a todos os abatidos.", referencia: "Salmos 145:14" },
+  { texto: "Bem-aventurados os que choram, porque eles serão consolados.", referencia: "Mateus 5:4" },
+  { texto: "Fiel é o Senhor em todas as suas palavras, e santo em todas as suas obras.", referencia: "Salmos 145:13" },
+  { texto: "Esperei com paciência no Senhor, e ele se inclinou para mim, e ouviu o meu clamor. Tirou-me dum lago horrível, dum charco de lodo, pôs os meus pés sobre uma rocha, firmou os meus passos.", referencia: "Salmos 40:1-2" },
+  { texto: "O Senhor guardará a tua entrada e a tua saída, desde agora e para sempre.", referencia: "Salmos 121:8" },
+  { texto: "E a paz de Deus, que excede todo o entendimento, guardará os vossos corações e os vossos sentimentos em Cristo Jesus.", referencia: "Filipenses 4:7" },
+  { texto: "Bom é o Senhor para os que esperam por ele, para a alma que o busca.", referencia: "Lamentações 3:25" },
+  { texto: "O Senhor dará força ao seu povo; o Senhor abençoará o seu povo com paz.", referencia: "Salmos 29:11" },
+  { texto: "Justo é o Senhor em todos os seus caminhos, e santo em todas as suas obras.", referencia: "Salmos 145:17" },
+  { texto: "O Senhor está comigo; não temerei o que me possa fazer o homem.", referencia: "Salmos 118:6" },
+  { texto: "Bendito o homem que confia no Senhor, e cuja confiança é o Senhor. Porque será como a árvore plantada junto às águas, que estende as suas raízes para o ribeiro.", referencia: "Jeremias 17:7-8" },
+  { texto: "O Senhor é a minha porção, diz a minha alma; portanto esperarei nele.", referencia: "Lamentações 3:24" },
+  { texto: "Mas buscai primeiro o reino de Deus, e a sua justiça, e todas estas coisas vos serão acrescentadas.", referencia: "Mateus 6:33" },
+  { texto: "O Senhor é a minha luz e a minha salvação; de quem terei temor? O Senhor é a força da minha vida; de quem me recearei?", referencia: "Salmos 27:1" },
+  { texto: "E Deus limpará de seus olhos toda a lágrima; e não haverá mais morte, nem pranto, nem clamor, nem dor; porque já as primeiras coisas são passadas.", referencia: "Apocalipse 21:4" },
+  { texto: "Porque o Senhor é bom, e eterna a sua misericórdia; e a sua verdade dura de geração em geração.", referencia: "Salmos 100:5" },
+  { texto: "Os olhos do Senhor estão sobre os justos, e os seus ouvidos atentos ao seu clamor.", referencia: "Salmos 34:15" },
+  { texto: "O meu socorro vem do Senhor, que fez o céu e a terra.", referencia: "Salmos 121:2" },
+  { texto: "Aquele que habita no esconderijo do Altíssimo, à sombra do Onipotente descansará. Direi do Senhor: Ele é o meu refúgio e a minha fortaleza, o meu Deus, em quem confio.", referencia: "Salmos 91:1-2" },
+  { texto: "O Senhor te abençoe e te guarde; o Senhor faça resplandecer o seu rosto sobre ti, e tenha misericórdia de ti; o Senhor sobre ti levante o seu rosto, e te dê a paz.", referencia: "Números 6:24-26" },
+  { texto: "O Senhor é a minha força e o meu cântico; ele me foi por salvação; este é o meu Deus; portanto lhe farei uma habitação; ele é o Deus de meu pai; por isso o exaltarei.", referencia: "Êxodo 15:2" },
+  { texto: "Perto está o Senhor de todos os que o invocam, de todos os que o invocam em verdade.", referencia: "Salmos 145:18" },
+  { texto: "E o que estava assentado sobre o trono disse: Eis que faço novas todas as coisas. E disse-me: Escreve; porque estas palavras são verdadeiras e fiéis.", referencia: "Apocalipse 21:5" },
+  { texto: "A minha alma está quieta somente em Deus; dele vem a minha salvação. Só ele é a minha rocha e a minha salvação; ele é a minha defesa; não serei grandemente abalado.", referencia: "Salmos 62:1-2" },
+  { texto: "Eis que os olhos do Senhor estão sobre os que o temem, sobre os que esperam na sua misericórdia.", referencia: "Salmos 33:18" },
+  { texto: "Mas tu, Senhor, és um Deus cheio de compaixão, e piedoso, sofredor, e grande em benignidade e em verdade.", referencia: "Salmos 86:15" },
+  { texto: "Eis que Deus é o meu ajudador, o Senhor é com aqueles que sustentam a minha alma.", referencia: "Salmos 54:4" },
+  { texto: "Porque tu, Senhor, és bom, e pronto a perdoar, e abundante em benignidade para todos os que te invocam.", referencia: "Salmos 86:5" },
+  { texto: "Bendito seja o homem que confia no Senhor, e cuja esperança é o Senhor.", referencia: "Jeremias 17:7" },
+  { texto: "O Senhor conhece os dias dos retos, e a sua herança permanecerá para sempre.", referencia: "Salmos 37:18" },
+  { texto: "Também me deste o escudo da tua salvação; a tua mansidão me engrandeceu.", referencia: "Salmos 18:35" },
+  { texto: "O Senhor levanta os abatidos, e humilha os ímpios até à terra.", referencia: "Salmos 147:6" },
+  { texto: "E edificou ali Gideão um altar ao Senhor, e chamou-lhe: O Senhor é Paz.", referencia: "Juízes 6:24" },
+  { texto: "Ó Senhor, fortaleza minha, e força minha, e refúgio meu no dia da angústia.", referencia: "Jeremias 16:19" },
+  { texto: "A tua fidelidade dura de geração em geração; tu firmaste a terra, e ela permanece.", referencia: "Salmos 119:90" },
+  { texto: "Porque o Senhor ama o juízo e não desampara os seus santos; eles são preservados para sempre.", referencia: "Salmos 37:28" },
+  { texto: "Guiará os mansos em justiça, e aos mansos ensinará o seu caminho.", referencia: "Salmos 25:9" },
+  { texto: "O Senhor é bom para todos, e as suas misericórdias são sobre todas as suas obras.", referencia: "Salmos 145:9" }
+];
+
+        // ========================================
+        // TESTEMUNHOS
+        // ========================================
+        const testemunhos = [
+            {
+                texto: "As orações deste canal mudaram minha vida. Estava passando por um momento muito difícil e encontrei paz e conforto através das novenas. Deus é fiel!",
+                autor: "Maria Silva"
+            },
+            {
+                texto: "Comecei a acompanhar o canal há 3 meses e minha fé se fortaleceu imensamente. As orações poderosas me ajudaram a superar a ansiedade e encontrar propósito.",
+                autor: "João Santos"
+            },
+            {
+                texto: "Que canal abençoado! Todos os dias assisto uma oração antes de dormir. Sinto a presença de Deus muito forte em minha vida. Gratidão!",
+                autor: "Ana Paula"
+            },
+            {
+                texto: "As novenas me ajudaram a encontrar um emprego quando eu mais precisava. Deus ouviu minhas preces através dessas orações. Glória a Deus!",
+                autor: "Carlos Eduardo"
+            }
+        ];
+
+        // ========================================
+        // FUNÇÃO: CARREGAR VERSÍCULO DO DIA
+        // ========================================
+        function carregarVersiculoDoDia() {
+            const dailyVerseEl = document.getElementById('daily-verse');
+            const referenceEl = document.getElementById('verse-reference');
+            
+            if (!dailyVerseEl || !referenceEl) {
+                console.error('Elementos do versículo não encontrados');
+                return;
+            }
+            
+            try {
+                const hoje = new Date();
+                const inicioDano = new Date(hoje.getFullYear(), 0, 0);
+                const diff = hoje - inicioDano;
+                const umDia = 1000 * 60 * 60 * 24;
+                const diaDoAno = Math.floor(diff / umDia);
+                
+                const indice = diaDoAno % versiculos.length;
+                const versiculo = versiculos[indice];
+                
+                dailyVerseEl.textContent = `"${versiculo.texto}"`;
+                referenceEl.textContent = versiculo.referencia;
+            } catch (error) {
+                console.error('Erro ao carregar versículo:', error);
+                dailyVerseEl.textContent = '"Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna."';
+                referenceEl.textContent = "João 3:16";
+            }
+        }
+
+        // ========================================
+        // FUNÇÃO: CARREGAR TESTEMUNHOS
+        // ========================================
+        function carregarTestemunhos() {
+            const container = document.getElementById('testimonials-container');
+            if (!container) return;
+            
+            container.innerHTML = '';
+            
+            testemunhos.forEach(test => {
+                const card = document.createElement('div');
+                card.className = 'testimonial-card';
+                card.innerHTML = `
+                    <p>"${test.texto}"</p>
+                    <div class="testimonial-author">— ${test.autor}</div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        // ========================================
+        // FUNÇÃO: ENVIAR FORMULÁRIO VIA EMAILJS
+        // ========================================
+        async function enviarFormulario(e) {
+            e.preventDefault();
+            
+            const form = e.target;
+            const btn = form.querySelector('.btn-submit');
+            const successMsg = document.getElementById('success-message');
+            const errorMsg = document.getElementById('error-message');
+            
+            // Verifica se EmailJS está configurado
+            if (!validarConfiguracao()) {
+                errorMsg.textContent = '⚠️ EmailJS não está configurado. Entre em contato com o administrador.';
+                errorMsg.classList.add('show');
+                return;
+            }
+            
+            // Esconde mensagens anteriores
+            successMsg.classList.remove('show');
+            errorMsg.classList.remove('show');
+            
+            // Desabilita botão durante envio
+            btn.disabled = true;
+            const btnTextOriginal = btn.textContent;
+            btn.textContent = '📤 Enviando pedido...';
+            
+            try {
+                // Coleta dados do formulário
+                // IMPORTANTE: Os nomes devem corresponder às variáveis do template
+                const templateParams = {
+                    name: form.name.value.trim(),      // {{name}} no template
+                    email: form.email.value.trim(),    // {{email}} no template
+                    pedido: form.pedido.value.trim()   // {{pedido}} no template
+                };
+                
+                // Validação básica
+                if (!templateParams.name || !templateParams.email || !templateParams.pedido) {
+                    throw new Error('Por favor, preencha todos os campos.');
+                }
+                
+                console.log('📧 Enviando pedido de oração via EmailJS...');
+                console.log('Service ID:', EMAILJS_CONFIG.serviceID);
+                console.log('Template ID:', EMAILJS_CONFIG.templateID);
+                
+                // Envia via EmailJS usando a sintaxe correta
+                const response = await emailjs.send(
+                    EMAILJS_CONFIG.serviceID,
+                    EMAILJS_CONFIG.templateID,
+                    templateParams,
+                    EMAILJS_CONFIG.publicKey
+                );
+                
+                console.log('✅ Pedido enviado com sucesso!', response);
+                
+                // Mostra mensagem de sucesso
+                successMsg.classList.add('show');
+                form.reset();
+
+				// 🔥 EVENTO GA4 - ENVIO DE PEDIDO DE ORAÇÃO
+if (typeof gtag === 'function') {
+  gtag('event', 'form_submit', {
+    event_category: 'pedido_oracao',
+    event_label: 'envio_sucesso',
+    value: 1
+  });
+  console.log('📊 Evento GA4 form_submit disparado');
+}
+                // Esconde mensagem após 8 segundos
+                setTimeout(() => {
+                    successMsg.classList.remove('show');
+                }, 8000);
+                
+            } catch (error) {
+                console.error('❌ Erro ao enviar pedido:', error);
+                
+                // Mensagens de erro mais específicas
+                let mensagemErro = '❌ Erro ao enviar. Por favor, tente novamente.';
+                
+                if (error.text) {
+                    if (error.text.includes('Invalid')) {
+                        mensagemErro = '⚠️ Configuração inválida. Verifique Service ID e Template ID.';
+                    } else if (error.text.includes('not found')) {
+                        mensagemErro = '⚠️ Template não encontrado. Verifique o Template ID.';
+                    } else if (error.text.includes('forbidden')) {
+                        mensagemErro = '⚠️ Acesso negado. Verifique sua Public Key.';
+                    }
+                }
+                
+                errorMsg.textContent = mensagemErro;
+                errorMsg.classList.add('show');
+                
+                // Mostra detalhes do erro no console
+                console.error('Detalhes do erro:', {
+                    status: error.status,
+                    text: error.text,
+                    message: error.message
+                });
+                
+                // Esconde mensagem após 8 segundos
+                setTimeout(() => {
+                    errorMsg.classList.remove('show');
+                }, 8000);
+            } finally {
+                // Reabilita botão
+                btn.disabled = false;
+                btn.textContent = btnTextOriginal;
+            }
+        }
+
+       // ========================================
+// INICIALIZAÇÃO
+// ========================================
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('🙏 Site de Orações Católicas carregado');
+    console.log('EmailJS configurado:', EMAILJS_CONFIG.serviceID);
+    
+    // Carrega conteúdo da página
+    carregarVersiculoDoDia();
+    carregarTestemunhos();
+    
+    // Configura o formulário de oração
+    const form = document.getElementById('prayer-form');
+    if (form) {
+        form.addEventListener('submit', enviarFormulario);
+        console.log('✅ Formulário de oração configurado');
+    } else {
+        console.error('❌ Formulário não encontrado');
+    }
+});
+
+    </script>
+    <script>
+  // ==============================
+  // MINUTO DE SABEDORIA BÍBLICO
+  // ==============================
+
+  // Mensagens de sabedoria (ORIGINAIS)
+const mensagensSabedoria = [
+  "Reserve este minuto. Deus vê o que você sente em silêncio. Nada do que você enfrenta passa despercebido aos olhos do Senhor. Confie, porque Ele está cuidando de você, mesmo quando você não entende o processo.",
+  "Deus está quebrando as correntes que te prendem. Seu livramento já começou.",
+  "A vitória que Deus preparou para você é maior que qualquer derrota do passado.",
+  "Não desanime. O tempo de espera não é perda, é preparação. Deus fortalece seu interior antes de mudar o exterior.",
+  "Você está saindo da escravidão espiritual. Deus está te libertando agora!",
+  "Lembre-se: aquilo que hoje parece dor, amanhã será testemunho de vitória. Deus não desperdiça nenhuma lágrima.",
+  "O Senhor está lutando por você. Sua batalha espiritual já tem vencedor: Cristo!",
+  "Deus está removendo tudo que impede sua transformação. Confie no processo.",
+  "Mesmo quando você se sente fraco, Deus permanece forte em sua vida. A força Dele se aperfeiçoa na sua fraqueza.",
+  "Hoje é dia de livramento! Deus rompe toda opressão sobre sua vida.",
+  "Sua transformação espiritual já começou. Cada dia você é renovado em Cristo.",
+  "Quando faltar força, lembre-se: é Deus quem te sustenta e te dá a vitória.",
+  "O inimigo tentou te destruir, mas Deus te levantará em triunfo!",
+  "Deus não se atrasa. Seu livramento chega no tempo perfeito.",
+  "Você não é mais escravo do medo. Cristo te libertou para a verdadeira liberdade!",
+  "Seu coração pode estar cansado, mas Deus renova suas forças para a vitória final.",
+  "Declare: 'Sou livre em Cristo! Nenhuma cadeia me prende mais!'",
+  "Deus transforma cenários impossíveis em testemunhos gloriosos de vitória.",
+  "O Senhor está quebrando maldições geracionais sobre sua família agora.",
+  "Deus vê sua luta e já decretou sua vitória nos céus.",
+  "Você está sendo liberto de pensamentos que te aprisionam. Renove sua mente em Cristo!",
+  "O deserto que você atravessa está chegando ao fim. A terra prometida te espera!",
+  "Deus usa o vale para fortalecer você para os montes da vitória.",
+  "Seu testemunho de livramento vai impactar multidões.",
+  "Quando você ora em fé, correntes espirituais se rompem no mundo invisível.",
+  "Deus nunca abandona quem luta pela transformação espiritual.",
+  "A ressurreição de Cristo garante sua vitória sobre todo mal.",
+  "Não tenha medo. O Senhor já venceu por você na cruz!",
+  "Cada lágrima sua tem poder para regar sementes de vitória futura.",
+  "Deus trabalha silenciosamente preparando seu livramento espetacular.",
+  "Você não nasceu para ser vítima, mas vencedor em Cristo Jesus!",
+  "Mesmo em meio à tempestade espiritual, Deus permanece no controle absoluto.",
+  "O sangue de Jesus te purifica, te liberta e te transforma completamente.",
+  "Deus te fortalece exatamente onde o inimigo tentou te derrubar.",
+  "Sua transformação espiritual é processo diário de morrer para o velho homem.",
+  "O Senhor nunca falha com quem deposita Nele a esperança de libertação.",
+  "Deus transforma cativos em guerreiros poderosos do Seu reino.",
+  "A unção de Deus sobre você quebra todo jugo de opressão.",
+  "Você está sendo preparado para vitórias que nem imagina ainda.",
+  "Deus conhece seu limite e te dá graça suficiente para cada batalha.",
+  "A paz de Cristo expulsa todo tormento da sua mente e coração.",
+  "Não se desespere. O livramento está mais perto do que você pensa.",
+  "O tempo de humilhação acabou. Deus te exaltará em Seu tempo.",
+  "Deus honra quem permanece firme na batalha espiritual.",
+  "Você é templo do Espírito Santo. Nenhuma impureza permanecerá!",
+  "O Senhor te guarda como menina dos olhos Dele.",
+  "Cada vitória pequena te prepara para conquistas maiores em Deus.",
+  "O amor de Deus é poder transformador que renova totalmente sua vida.",
+  "Deus está removendo pessoas e situações tóxicas do seu caminho.",
+  "Você foi chamado para ser sal e luz. Sua transformação impacta o mundo!",
+  "Cada passo de obediência te aproxima da vitória total prometida.",
+  "O Senhor restaura os anos que os gafanhotos comeram da sua vida.",
+  "Deus cuida do que você não consegue controlar e te dá vitória sobre o impossível.",
+  "Permaneça firme. A transformação completa está em andamento.",
+  "Deus age poderosamente quando você escolhe confiar totalmente Nele.",
+  "O Senhor é seu libertador pessoal. Ele já pagou o preço da sua liberdade!",
+  "Sua história de livramento será contada de geração em geração.",
+  "Descansar em Deus é estratégia de guerra espiritual vitoriosa.",
+  "A graça transformadora de Deus te alcança no seu pior momento.",
+  "Você não é definido pelo passado, mas pela vitória futura em Cristo.",
+  "Deus está quebrando fortalezas mentais que limitavam sua fé.",
+  "O Senhor transforma luto em dança e pranto em alegria vitoriosa!",
+  "Você está sendo liberto de vícios que escravizavam sua alma.",
+  "A misericórdia de Deus te levanta quantas vezes for necessário até a vitória.",
+  "Declare guerra espiritual contra tudo que rouba sua paz em Cristo!",
+  "Deus te carrega nos braços durante a transformação dolorosa mas necessária.",
+  "O plano de Deus inclui livramento total: espírito, alma e corpo.",
+  "A fidelidade de Deus garante que toda promessa de vitória se cumprirá.",
+  "Você está saindo de Egito rumo à terra que mana leite e mel!",
+  "O coração de Deus se alegra com cada passo da sua transformação.",
+  "Cada prova vencida é certificado de maturidade espiritual conquistada.",
+  "Deus permite batalhas para treinar você como guerreiro vitorioso.",
+  "A paz de Cristo é sua arma mais poderosa contra ansiedade e medo.",
+  "O Senhor te libertou para que você liberte outros cativos.",
+  "Sua fé ativa o poder de Deus para milagres e livramentos sobrenaturais.",
+  "Deus não te chama para sobreviver, mas para vencer gloriosamente!",
+  "A providência divina já decretou vitória sobre toda investida do mal.",
+  "Quando você louva na batalha, confusão se instala no campo inimigo.",
+  "O amor de Deus por você destrói toda acusação do adversário.",
+  "Cristo vive em você, e com Ele habitam vitória e poder transformador!",
+  "Cada confissão sincera te liberta de peso que impedia sua caminhada.",
+  "O Senhor não te trouxe até aqui para você fracassar agora.",
+  "Você foi escolhido para ser cabeça e não cauda, vencedor e não vencido!",
+  "A cruz de Cristo é garantia eterna do seu livramento completo.",
+  "Os anjos de Deus acampam ao redor de você te protegendo na batalha.",
+  "Deus permite o vazio para poder preenchê-lo com vitória e propósito.",
+  "A esperança em Cristo nunca decepciona e sempre resulta em triunfo.",
+  "Você é mais que vencedor por meio dAquele que te amou até a morte!",
+  "Deus transforma suas maiores fraquezas em testemunho poderoso de vitória.",
+  "A oração perseverante move montanhas e rompe fortalezas espirituais.",
+  "Quando você adora na dor, portas de prisão se abrem sobrenaturalmente!",
+  "Deus nunca desperdiça uma batalha na formação do Seu guerreiro vitorioso.",
+  "O Espírito Santo te capacita com poder para toda boa obra e vitória.",
+  "Deus transforma desertos em jardins e prisões em palácios de adoração.",
+  "A vontade de Deus é sempre vitória, transformação e vida abundante para você.",
+  "Quando você perdoa, quebra correntes que também te aprisionavam.",
+  "Você é filho amado de Deus, destinado à vitória eterna!",
+  "O Senhor fecha ciclos de derrota e abre tempos de conquistas gloriosas.",
+  "Cada eucaristia renova em você o poder da ressurreição vitoriosa de Cristo.",
+  "Maria Santíssima intercede por suas vitórias como mãe que nunca desiste dos filhos.",
+  "A comunhão dos santos celebra cada conquista espiritual sua no céu!",
+  "O rosário é corrente poderosa que amarra o inimigo e liberta cativos.",
+  "A confissão te purifica, renova e prepara para novas vitórias em santidade.",
+  "Cristo ressuscitou! E com Ele você ressuscita diariamente para nova vida vitoriosa!"
+];
+
+  // Versículos exclusivos do Minuto de Sabedoria
+const versiculosSabedoria = [
+  "📖 \"Entrega o teu caminho ao Senhor; confia nele, e Ele tudo fará. Fará sobressair a tua justiça como a luz, e o teu direito como o meio-dia.\" — Salmos 37:5-6",
+  "📖 \"Perto está o Senhor dos que têm o coração quebrantado, e salva os contritos de espírito. Muitas são as aflições do justo, mas o Senhor o livra de todas.\" — Salmos 34:18-19",
+  "📖 \"Não temas, porque Eu sou contigo; não te assombres, porque Eu sou o teu Deus; Eu te fortaleço, te ajudo, e te sustento com a destra da minha justiça.\" — Isaías 41:10",
+  "📖 \"Lançai sobre Ele toda a vossa ansiedade, porque Ele tem cuidado de vós. Sede sóbrios, vigiai, porque o diabo, vosso adversário, anda em derredor, bramando como leão, buscando a quem possa tragar.\" — 1 Pedro 5:7-8",
+  "📖 \"Tudo posso naquele que me fortalece. Sei estar abatido, e sei também ter abundância; em toda a maneira, e em todas as coisas estou instruído.\" — Filipenses 4:13",
+  "📖 \"O Senhor é o meu pastor; nada me faltará. Deitar-me faz em verdes pastos, guia-me mansamente a águas tranquilas. Refrigera a minha alma.\" — Salmos 23:1-3",
+  "📖 \"Aquietai-vos e sabei que Eu sou Deus; serei exaltado entre as nações, serei exaltado sobre a terra. O Senhor dos Exércitos está conosco; o Deus de Jacó é o nosso refúgio.\" — Salmos 46:10-11",
+  "📖 \"Invoca-me no dia da angústia; Eu te livrarei, e tu me glorificarás. Oferece a Deus sacrifício de louvor, e paga ao Altíssimo os teus votos.\" — Salmos 50:15",
+  "📖 \"O choro pode durar uma noite, mas a alegria vem pela manhã. Converteste o meu pranto em folguedo; desataste o meu pano de saco, e me cingiste de alegria.\" — Salmos 30:5,11",
+  "📖 \"O Senhor é bom, uma fortaleza no dia da angústia; e conhece os que confiam nele. Mas com uma inundação transbordante acabará daquele lugar.\" — Naum 1:7-8",
+  "📖 \"Confia no Senhor de todo o teu coração, e não te estribes no teu próprio entendimento. Reconhece-o em todos os teus caminhos, e ele endireitará as tuas veredas.\" — Provérbios 3:5-6",
+  "📖 \"O Senhor é a minha luz e a minha salvação; a quem temerei? O Senhor é a força da minha vida; de quem me recearei? Quando os malvados se aproximam de mim, tropeçam e caem.\" — Salmos 27:1-2",
+  "📖 \"Bem-aventurados os que choram, porque serão consolados. Bem-aventurados os mansos, porque eles herdarão a terra. Bem-aventurados os que têm fome e sede de justiça, porque serão fartos.\" — Mateus 5:4-6",
+  "📖 \"Mas buscai primeiro o Reino de Deus, e a sua justiça, e todas estas coisas vos serão acrescentadas. Não vos inquieteis, pois, pelo dia de amanhã, porque o dia de amanhã cuidará de si mesmo.\" — Mateus 6:33-34",
+  "📖 \"O Senhor te abençoe e te guarde; o Senhor faça resplandecer o seu rosto sobre ti, e tenha misericórdia de ti; o Senhor sobre ti levante o seu rosto, e te dê a paz.\" — Números 6:24-26",
+  "📖 \"O Senhor é a força do seu povo; também é a força salvadora do seu ungido. Salva o teu povo, e abençoa a tua herança; e apascenta-os e exalta-os para sempre.\" — Salmos 28:8-9",
+  "📖 \"Ainda que eu ande pelo vale da sombra da morte, não temerei mal algum, porque tu estás comigo; a tua vara e o teu cajado me consolam. Preparas uma mesa perante mim na presença dos meus inimigos.\" — Salmos 23:4-5",
+  "📖 \"Deus é o nosso refúgio e fortaleza, socorro bem presente na angústia. Portanto não temeremos, ainda que a terra se mude, e ainda que os montes se transportem para o meio dos mares.\" — Salmos 46:1-2",
+  "📖 \"Entrega as tuas obras ao Senhor, e teus planos serão bem-sucedidos. O Senhor fez tudo para um fim; até o ímpio para o dia do mal. Abominável é ao Senhor todo o altivo de coração.\" — Provérbios 16:3-5",
+  "📖 \"Os passos de um homem bom são confirmados pelo Senhor, e deleita-se no seu caminho. Ainda que caia, não ficará prostrado, pois o Senhor o sustém com a sua mão.\" — Salmos 37:23-24",
+  "📖 \"A minha graça te basta, porque o meu poder se aperfeiçoa na fraqueza. De boa vontade, pois, me gloriarei nas minhas fraquezas, para que em mim habite o poder de Cristo.\" — 2 Coríntios 12:9",
+  "📖 \"O Senhor pelejará por vós; e vós vos calareis. Então disse o Senhor a Moisés: Por que clamas a mim? Dize aos filhos de Israel que marchem.\" — Êxodo 14:14-15",
+  "📖 \"O Senhor está comigo; não temerei o que me possa fazer o homem. O Senhor está comigo entre aqueles que me ajudam; pelo que verei cumprido o meu desejo sobre os que me odeiam.\" — Salmos 118:6-7",
+  "📖 \"Bendito o homem que confia no Senhor, e cuja confiança é o Senhor. Porque será como a árvore plantada junto às águas, que estende as suas raízes para o ribeiro, e não receia quando vem o calor.\" — Jeremias 17:7-8",
+  "📖 \"Misericordioso e piedoso é o Senhor; longânimo e grande em benignidade. Não repreenderá perpetuamente, nem para sempre reterá a sua ira. Não nos tratou segundo os nossos pecados, nem nos retribuiu segundo as nossas iniquidades.\" — Salmos 103:8-10",
+  "📖 \"E Deus limpará de seus olhos toda a lágrima; e não haverá mais morte, nem pranto, nem clamor, nem dor; porque já as primeiras coisas são passadas. E o que estava assentado sobre o trono disse: Eis que faço novas todas as coisas.\" — Apocalipse 21:4-5",
+  "📖 \"Se Deus é por nós, quem será contra nós? Aquele que nem mesmo a seu próprio Filho poupou, antes o entregou por todos nós, como nos não dará também com ele todas as coisas?\" — Romanos 8:31-32",
+  "📖 \"Os olhos do Senhor estão sobre os justos, e os seus ouvidos atentos ao seu clamor. A face do Senhor está contra os que fazem o mal, para desarraigar da terra a memória deles.\" — Salmos 34:15-16",
+  "📖 \"O coração do homem pode fazer planos, mas a resposta certa vem do Senhor. Todos os caminhos do homem são puros aos seus olhos, mas o Senhor pesa os espíritos. Entrega as tuas obras ao Senhor, e teus pensamentos serão estabelecidos.\" — Provérbios 16:1-3",
+  "📖 \"O Senhor sustém a todos os que caem, e levanta a todos os abatidos. Os olhos de todos esperam em ti, e lhes dás o seu mantimento a seu tempo. Abres a tua mão, e fartas de benevolência a todo o vivente.\" — Salmos 145:14-16",
+  "📖 \"Fiel é o Senhor em todas as suas palavras, e santo em todas as suas obras. O Senhor sustém a todos os que caem, e levanta a todos os abatidos.\" — Salmos 145:13-14",
+  "📖 \"Esperei com paciência no Senhor, e ele se inclinou para mim, e ouviu o meu clamor. Tirou-me dum lago horrível, dum charco de lodo, pôs os meus pés sobre uma rocha, firmou os meus passos. E pôs um novo cântico na minha boca, um hino ao nosso Deus.\" — Salmos 40:1-3",
+  "📖 \"O Senhor te guardará de todo mal; guardará a tua alma. O Senhor guardará a tua entrada e a tua saída, desde agora e para sempre.\" — Salmos 121:7-8",
+  "📖 \"E a paz de Deus, que excede todo o entendimento, guardará os vossos corações e os vossos sentimentos em Cristo Jesus. Quanto ao mais, irmãos, tudo o que é verdadeiro, tudo o que é honesto, tudo o que é justo, tudo o que é puro, nisso pensai.\" — Filipenses 4:7-8",
+  "📖 \"Bom é o Senhor para os que esperam por ele, para a alma que o busca. Bom é ter esperança, e aguardar em silêncio a salvação do Senhor. Bom é para o homem suportar o jugo na sua mocidade.\" — Lamentações 3:25-27",
+  "📖 \"O Senhor é a minha força e o meu cântico; ele me foi por salvação; este é o meu Deus; portanto lhe farei uma habitação; ele é o Deus de meu pai; por isso o exaltarei.\" — Êxodo 15:2",
+  "📖 \"E o que estava assentado sobre o trono disse: Eis que faço novas todas as coisas. E disse-me: Escreve; porque estas palavras são verdadeiras e fiéis. E disse-me mais: Está cumprido. Eu sou o Alfa e o Ômega, o princípio e o fim.\" — Apocalipse 21:5-6",
+  "📖 \"Perto está o Senhor de todos os que o invocam, de todos os que o invocam em verdade. Ele cumprirá o desejo dos que o temem; ouvirá o seu clamor, e os salvará.\" — Salmos 145:18-19",
+  "📖 \"Bem-aventurado o povo cujo Deus é o Senhor, a nação que ele escolheu para sua herança. Do céu olha o Senhor e está vendo a todos os filhos dos homens.\" — Salmos 33:12-13",
+  "📖 \"Justo é o Senhor em todos os seus caminhos, e santo em todas as suas obras. Perto está o Senhor de todos os que o invocam, de todos os que o invocam em verdade.\" — Salmos 145:17-18",
+  "📖 \"O Senhor é a minha porção, diz a minha alma; portanto esperarei nele. Bom é o Senhor para os que esperam por ele, para a alma que o busca.\" — Lamentações 3:24-25",
+  "📖 \"O Senhor é a minha rocha, e o meu lugar forte, e o meu libertador; o meu Deus, a minha fortaleza, em quem confio; o meu escudo, a força da minha salvação, e o meu alto refúgio. Invocarei o nome do Senhor, que é digno de louvor, e ficarei livre dos meus inimigos.\" — Salmos 18:2-3",
+  "📖 \"Misericordioso e piedoso é o Senhor; longânimo e grande em benignidade. Não repreenderá perpetuamente, nem para sempre reterá a sua ira.\" — Salmos 103:8-9",
+  "📖 \"Sabemos que todas as coisas contribuem juntamente para o bem daqueles que amam a Deus, daqueles que são chamados por seu decreto. Porque os que dantes conheceu também os predestinou para serem conformes à imagem de seu Filho.\" — Romanos 8:28-29",
+  "📖 \"O Senhor dará força ao seu povo; o Senhor abençoará o seu povo com paz. Dai ao Senhor, ó filhos dos poderosos, dai ao Senhor glória e força.\" — Salmos 29:11,1",
+  "📖 \"O Senhor guardará a tua entrada e a tua saída, desde agora e para sempre. Levantarei os meus olhos para os montes, de onde vem o meu socorro. O meu socorro vem do Senhor que fez o céu e a terra.\" — Salmos 121:8,1-2",
+  "📖 \"Porque o Senhor é bom, e eterna a sua misericórdia; e a sua verdade dura de geração em geração. Entrai por suas portas com gratidão, e em seus átrios com louvor; louvai-o, e bendizei o seu nome.\" — Salmos 100:5,4",
+  "📖 \"Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei. Tomai sobre vós o meu jugo, e aprendei de mim, que sou manso e humilde de coração; e encontrareis descanso para as vossas almas.\" — Mateus 11:28-29",
+  "📖 \"Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna. Porque Deus enviou o seu Filho ao mundo, não para que condenasse o mundo, mas para que o mundo fosse salvo por ele.\" — João 3:16-17",
+  "📖 \"Eu sou o caminho, e a verdade e a vida. Ninguém vem ao Pai, senão por mim. Se vós me conhecêsseis a mim, também conheceríeis a meu Pai; e já desde agora o conheceis, e o tendes visto.\" — João 14:6-7",
+  "📖 \"Aquele que habita no esconderijo do Altíssimo, à sombra do Onipotente descansará. Direi do Senhor: Ele é o meu refúgio e a minha fortaleza, o meu Deus, em quem confio. Porque ele te livrará do laço do passarinheiro, e da peste perniciosa.\" — Salmos 91:1-3",
+  "📖 \"A minha alma está quieta somente em Deus; dele vem a minha salvação. Só ele é a minha rocha e a minha salvação; ele é a minha defesa; não serei grandemente abalado.\" — Salmos 62:1-2",
+  "📖 \"Alegrai-vos sempre no Senhor; outra vez digo, alegrai-vos. Seja a vossa equidade notória a todos os homens. Perto está o Senhor. Não estejais inquietos por coisa alguma.\" — Filipenses 4:4-6",
+  "📖 \"O Senhor é compassivo e misericordioso, longânimo e assaz benigno. Não nos trata segundo os nossos pecados, nem nos retribui conforme as nossas iniquidades. Pois quanto o céu está elevado acima da terra, assim é grande a sua misericórdia para com os que o temem.\" — Salmos 103:8,10-11",
+  "📖 \"Bem-aventurado o homem que não anda segundo o conselho dos ímpios, nem se detém no caminho dos pecadores, nem se assenta na roda dos escarnecedores. Antes tem o seu prazer na lei do Senhor, e na sua lei medita de dia e de noite.\" — Salmos 1:1-2",
+  "📖 \"O Senhor é a minha luz e a minha salvação; de quem terei temor? O Senhor é a força da minha vida; de quem me recearei? Quando os malvados, meus adversários e meus inimigos, se chegaram contra mim, para comerem as minhas carnes, tropeçaram e caíram.\" — Salmos 27:1-2",
+  "📖 \"Eis que os olhos do Senhor estão sobre os que o temem, sobre os que esperam na sua misericórdia; para livrar as suas almas da morte, e para os conservar vivos na fome.\" — Salmos 33:18-19",
+  "📖 \"Porque tu, Senhor, és bom, e pronto a perdoar, e abundante em benignidade para todos os que te invocam. Inclina, Senhor, os teus ouvidos, e ouve-me, porque sou pobre e necessitado.\" — Salmos 86:5-6",
+  "📖 \"O Senhor te guardará de todo o mal; guardará a tua alma. Ele não permitirá que o teu pé vacile; aquele que te guarda não tosquenejará. Eis que não tosquenejará nem dormirá o guarda de Israel.\" — Salmos 121:7,3-4",
+  "📖 \"Ó profundidade das riquezas, tanto da sabedoria, como da ciência de Deus! Quão insondáveis são os seus juízos, e quão inescrutáveis os seus caminhos! Porque dele e por ele, e para ele, são todas as coisas; glória, pois, a ele eternamente. Amém.\" — Romanos 11:33,36"
+];
+
+  function gerarSabedoria() {
+    const nome = document.getElementById("nomeSabedoria").value.trim();
+
+    if (!nome) {
+      alert("Por favor, digite seu nome.");
+      return;
+    }
+
+    const mensagem =
+      mensagensSabedoria[Math.floor(Math.random() * mensagensSabedoria.length)];
+
+    const versiculo =
+      versiculosSabedoria[Math.floor(Math.random() * versiculosSabedoria.length)];
+
+    const textoFinal = `
+      <strong>${nome}</strong> ${mensagem}
+      <br><br>
+      ${versiculo}
+    `;
+
+    document.getElementById("textoSabedoria").innerHTML = textoFinal;
+    document.getElementById("resultadoSabedoria").style.display = "block";
+  }
+
+  function compartilharSabedoria() {
+  const textoCompleto = document.getElementById("textoSabedoria").innerText;
+  const linkSite = window.location.href;
+
+  // 🔥 Remove a primeira linha (nome da pessoa)
+  const textoSemNome = textoCompleto
+    .split("\n")
+    .slice(1)
+    .join("\n")
+    .trim();
+
+  const mensagemWhats = encodeURIComponent(
+    "✨ Minuto de Sabedoria Bíblica ✨\n\n" +
+    textoSemNome +
+    "\n\n🙏 Receba sua mensagem em:\n" +
+    linkSite
+  );
+
+  window.open("https://wa.me/?text=" + mensagemWhats, "_blank");
+}
+</script>
+<script>
+	  const toggle = document.querySelector('.menu-toggle');
+	  const menu = document.querySelector('nav.menu');
+	
+	  toggle.addEventListener('click', () => {
+	    menu.classList.toggle('active');
+	  });
+	
+	  // Script para Lazy Load de Vídeos do YouTube (Prioridade 2)
+	  document.addEventListener("DOMContentLoaded", function() {
+	    const lazyVideos = document.querySelectorAll('.youtube-lazy');
+	
+	    lazyVideos.forEach(video => {
+	      const videoId = video.dataset.embed;
+	      // Define a imagem de thumbnail como background
+	      video.style.backgroundImage = `url(https://img.youtube.com/vi/${videoId}/hqdefault.jpg)`;
+	
+	      // Adiciona o evento de clique para carregar o iframe
+	      video.addEventListener('click', () => {
+	        const iframe = document.createElement('iframe');
+	        iframe.setAttribute('src', `https://www.youtube.com/embed/${videoId}?autoplay=1`);
+	        iframe.setAttribute('frameborder', '0');
+	        iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+	        iframe.setAttribute('allowfullscreen', '');
+	        
+	        // Remove o botão de play e a imagem de background
+	        video.innerHTML = '';
+	        video.style.backgroundImage = 'none';
+	        
+	        // Adiciona o iframe
+	        video.appendChild(iframe);
+	      });
+	    });
+	  });
+	</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const menu = document.querySelector("nav.menu");
+  const links = document.querySelectorAll("nav.menu a");
+
+  links.forEach(link => {
+    link.addEventListener("click", () => {
+      if (menu.classList.contains("active")) {
+        menu.classList.remove("active");
+      }
+    });
+  });
+});
+</script>
+<!-- Aviso de Cookies LGPD -->
+<div id="cookie-banner" style="
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(30, 60, 114, 0.97);
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 9999;
+    display: none;
+">
+  🍪 Utilizamos cookies para melhorar sua experiência e analisar o tráfego.
+  Você pode aceitar ou recusar.  
+  Saiba mais em nossa
+  <a href="/politica-de-privacidade.html" style="color:#ffd700; text-decoration: underline;">
+    Política de Privacidade
+  </a>.
+  <br><br>
+
+  <button onclick="aceitarCookies()" style="
+      background:#ffd700;
+      color:#1e3c72;
+      border:none;
+      padding:10px 18px;
+      border-radius:6px;
+      font-weight:bold;
+      cursor:pointer;
+      margin-right:8px;
+  ">
+    Aceitar
+  </button>
+
+  <button onclick="recusarCookies()" style="
+      background:#ccc;
+      color:#333;
+      border:none;
+      padding:10px 18px;
+      border-radius:6px;
+      cursor:pointer;
+  ">
+    Recusar
+  </button>
+</div>
+<script>
+function aceitarCookies() {
+  localStorage.setItem("cookiesConsentimento", "aceito");
+  document.getElementById("cookie-banner").style.display = "none";
+}
+
+function recusarCookies() {
+  localStorage.setItem("cookiesConsentimento", "recusado");
+  document.getElementById("cookie-banner").style.display = "none";
+}
+
+window.onload = function () {
+  if (!localStorage.getItem("cookiesConsentimento")) {
+    document.getElementById("cookie-banner").style.display = "block";
+  }
+};
+</script>
+
+
+</body>
+</html>
