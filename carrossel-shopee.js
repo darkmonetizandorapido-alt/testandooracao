@@ -8,11 +8,11 @@
 
   // ── CONFIGURAÇÃO ────────────────────────────────────────
   // 🔧 Troque pela URL do seu site de produtos no Vercel:
-  var PRODUTOS_URL = 'https://achadinhosoracoescatnov.vercel.app/produtos.json';
+  var PRODUTOS_URL = 'https://SEU-SITE-PRODUTOS.vercel.app/produtos.json';
 
   // Velocidade do scroll automático (pixels por frame ~60fps)
   // Aumente para mais rápido, diminua para mais lento
-  var VELOCIDADE = 0.55;
+  var VELOCIDADE = 0.85;
 
   // Quantas cópias duplicar para loop infinito (não precisa mexer)
   var COPIAS = 4;
@@ -157,16 +157,6 @@
       'letter-spacing:0.04em;',
     '}',
 
-    '#shopee-close-btn{',
-      'position:absolute;top:4px;right:8px;',
-      'background:transparent;border:none;',
-      'font-size:14px;color:#bbb;cursor:pointer;',
-      'z-index:10;line-height:1;padding:4px;',
-      'transition:color 0.2s;',
-    '}',
-
-    '#shopee-close-btn:hover{color:#ee4d2d;}',
-
     // Empurra o conteúdo da página para cima para não ficar atrás do ticker
     'body{padding-bottom:92px !important;}',
   ].join('');
@@ -176,7 +166,6 @@
   var wrapper = document.createElement('div');
   wrapper.id = 'shopee-ticker-wrap';
   wrapper.innerHTML =
-    '<button id="shopee-close-btn" title="Fechar">✕</button>' +
     '<div id="shopee-ticker-inner">' +
       '<div id="shopee-ticker-fade-left">' +
         '<div class="shopee-label-logo">' +
@@ -190,13 +179,6 @@
   document.body.appendChild(wrapper);
 
   var track = document.getElementById('shopee-ticker-track');
-
-  // ── FECHAR ───────────────────────────────────────────────
-  document.getElementById('shopee-close-btn').addEventListener('click', function () {
-    wrapper.style.display = 'none';
-    document.body.style.paddingBottom = '';
-    cancelAnimationFrame(raf);
-  });
 
   // ── BUSCAR PRODUTOS DO JSON ──────────────────────────────
   fetch(PRODUTOS_URL)
