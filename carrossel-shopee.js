@@ -8,7 +8,7 @@
 
   // ── CONFIGURAÇÃO ────────────────────────────────────────
   // 🔧 Troque pela URL do seu site de produtos no Vercel:
-  var PRODUTOS_URL = 'hhttps://achadinhosoracoescatnov.vercel.app/produtos.json';
+  var PRODUTOS_URL = 'https://achadinhosoracoescatnov.vercel.app/produtos.json';
 
   // Velocidade do scroll automático (pixels por frame ~60fps)
   // Aumente para mais rápido, diminua para mais lento
